@@ -212,7 +212,7 @@ main {
     right: 0px;
 }
 
-@media(max-width:375px){
+@media(max-width:1000px){
     body {
         align-items: start;
         height: auto;

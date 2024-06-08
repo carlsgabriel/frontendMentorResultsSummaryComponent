@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: hsl(0, 0%, 100%);
     height: 100vh;
     display: flex;
@@ -14,15 +14,15 @@ body{
     position: relative;
 }
 
-main{
+main {
     max-width: 650px;
     display: flex;
-    box-shadow: 1px 1px 1px #000;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
 }
 
-.left{
-    flex: 1;
+.left {
+    width: 325px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,13 +31,13 @@ main{
     border-radius: 30px;
 }
 
-.left-tittle{
+.left-tittle {
     font-size: 1.3rem;
     color: hsla(0, 0%, 100%, 75%);
     font-weight: 500;
 }
 
-.left-circle{
+.left-circle {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -49,92 +49,132 @@ main{
     margin-top: 30px;
 }
 
-.left-circle-big{
+.left-circle-big {
     font-size: 4rem;
     display: inline-block;
     color: hsl(0, 0%, 100%);
     font-weight: 800;
 }
 
-.left-circle-small{
+.left-circle-small {
     font-size: 1rem;
     color: hsla(0, 0%, 100%, 40%);
     margin-bottom: 5px;
 }
 
-.left-description{
+.left-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.left-description-great{
+.left-description-great {
     margin-top: 22px;
     font-size: 1.8rem;
     font-weight: 500;
     color: hsl(0, 0%, 100%);
 }
 
-.left-description-desc{
+.left-description-desc {
     margin-top: 15px;
     font-size: 1rem;
     color: hsla(0, 0%, 100%, 75%);
     text-align: center;
 }
 
-.right{
-    flex: 1;
+.right {
+    width: 325px;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    padding: 32px 35px;
     background-color: hsl(0, 0%, 100%);
-    padding: 40px 48px;
     border-radius: 30px;
 }
 
-.right-tittle{
-    font-size: 2rem;
+.right-tittle {
+    font-size: 1.3rem;
     color: hsl(224, 30%, 27%);
+    font-weight: 800;
 }
 
-.right-status{
+.right-status {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 100%;
 }
 
-.status{
+.status {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
-    background-color: red;
+    height: 48px;
     margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
 }
 
-.status-name{
-    display: flex; 
+.pink{
+    background-color: hsla(0, 100%, 67%, 10%);
+    color: hsl(0, 100%, 67%);
 }
 
-.buttom{
+.yellow{
+    background-color: hsla(39, 100%, 56%, 10%);
+    color: hsl(39, 100%, 56%);
+}
+
+.green{
+    background-color: hsla(166, 100%, 37%, 10%);
+    color: hsl(166, 100%, 37%);
+}
+
+.blue{
+    background-color: hsla(234, 85%, 45%, 10%);
+    color: hsl(234, 85%, 45%);
+}
+
+.status img{
+    display: block;
+    max-width: 100%;
+}
+
+.status-name {
+    display: flex;
+}
+
+.status-name span{
+    margin-left: 7px;
+}
+
+.status-number{
+    color: black;
+}
+
+.grey{
+    color: grey;
+}
+
+.buttom {
     margin-top: 20px;
     align-self: center;
     width: 100%;
 }
 
-.buttom a{
+.buttom a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
     display: block;
-    padding: 20px 0px;
+    padding: 13px 0px;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: hsl(224, 30%, 27%);
     border-radius: 20px;
     text-align: center;
 }
 
-.attribution{
+.attribution {
     position: absolute;
     bottom: 0px;
     right: 0px;
